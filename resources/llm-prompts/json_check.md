@@ -12,9 +12,9 @@
 - Семантической корректности значений
 ```
 
-### User Prompt Template
+# User Prompt Template
 
-```jinja2
+````markdown
 ## JSON-схема (ожидаемый формат)
 ```json
 {{ expected_schema }}
@@ -34,6 +34,7 @@
 5. **No Hallucinations (0-10)** — нет ли выдуманных данных
 
 ## Формат вывода
+```json
 {
   "validation": {
     "A": {
@@ -52,3 +53,4 @@
   "recommendation": "promote_B | keep_A | iterate_both"
 }
 ```
+````
