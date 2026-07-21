@@ -33,7 +33,7 @@
 - **Factual** — выдуманные факты
 
 ## Формат вывода
-```
+```json
 {
   "hallucination_analysis": {
     "A": {
