@@ -64,7 +64,7 @@
 ---
 
 ### Шаблон структуры репозитория
-
+```
 prompt-library/
 ├── prompts/
 │ ├── search_team/
@@ -89,7 +89,7 @@ prompt-library/
 │ └── registry.py
 ├── README.md
 └── requirements.txt
-
+```
 ---
 
 ### Критерии оценивания
