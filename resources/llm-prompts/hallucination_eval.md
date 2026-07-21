@@ -1,3 +1,6 @@
+# User Prompt Template
+
+````markdown
 ## Исходные данные (контекст)
 """
 {{ source_context }}
@@ -53,3 +56,4 @@
   "recommendation": "promote_B | keep_A | iterate_both"
 }
 ```
+````
