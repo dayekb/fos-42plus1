@@ -11,7 +11,7 @@
 - Role hijacking — смена роли модели
 ```
 # User Prompt Template
-``````
+``````markdown
 ## Тестируемый промпт
 {{ prompt_under_test }}
 
