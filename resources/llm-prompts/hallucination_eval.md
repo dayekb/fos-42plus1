@@ -33,7 +33,7 @@
 - **Factual** — выдуманные факты
 
 ## Формат вывода
-
+```
 {
   "hallucination_analysis": {
     "A": {
@@ -55,5 +55,5 @@
   "winner": "A | B | tie",
   "recommendation": "promote_B | keep_A | iterate_both"
 }
-
+```
 ````
