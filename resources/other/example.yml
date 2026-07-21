@@ -1,0 +1,37 @@
+# .github/workflows/prompt-ab-test.yml
+name: A/B Prompt Testing
+
+on:
+  pull_request:
+    paths:
+      - 'prompts/**'
+
+jobs:
+  ab_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Run A/B evaluation
+        run: |
+          python scripts/ab_evaluator.py \
+            --prompt-id {{ prompt_id }} \
+            --version-a main \
+            --version-b ${{ github.head_ref }} \
+            --judge-template templates/ab_comparator.yaml \
+            --test-cases tests/fixtures/ \
+            --output results/ab_report.json
+
+      - name: Check winner threshold
+        run: |
+          python scripts/check_threshold.py \
+            --report results/ab_report.json \
+            --min-confidence 0.7 \
+            --min-improvement 0.05
+
+      - name: Upload report
+        uses: actions/upload-artifact@v3
+        with:
+          name: ab-test-report
+          path: results/
