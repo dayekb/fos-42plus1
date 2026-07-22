@@ -1,0 +1,11 @@
+[
+    {
+        "query": "Как настроить FastAPI для асинхронной обработки?",
+        "relevant_doc_ids": ["doc_fastapi_async.pdf", "doc_uvicorn_tips.txt"]
+    },
+    {
+        "query": "Какие гиперпараметры влияют на сходимость SGD?",
+        "relevant_doc_ids": ["doc_sgd_params.pdf", "doc_optimizers.md"]
+    },
+    ...
+]
