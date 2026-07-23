@@ -11,7 +11,6 @@
 - [Методические указания](methodical-guidelines/README.md)
 - [Информационные ресурсы](resources/README.md)
 - [Команда проекта](team/README.md)
-- [Контроль качества репозитория](docs/quality-checklist.md)
 
 ## 1. О дисциплине
 
