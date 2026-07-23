@@ -882,12 +882,14 @@ if __name__ == '__main__':
 11. Chen, J., Lin, H., Han, X., Sun, L. Benchmarking Large Language Models in Retrieval-Augmented Generation // Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024. — Vol. 38. — P. 17754–17762.
     
 Модели эмбеддингов и ретривал
+
 13. Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., Liu, Z. BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation // arXiv preprint arXiv:2402.03216, 2024. — arXiv:2402.03216 | Hugging Face
 14. Karpukhin, V., Oguz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D., Yih, W.-t. Dense Passage Retrieval for Open-Domain Question Answering // Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. — P. 6769–6781. — arXiv:2004.04906
 15. Xiong, L., Xiong, C., Li, Y., Tang, K.F., Liu, J., Bennett, P., Ahmed, J., Overwijk, A. Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval // Proceedings of the International Conference on Learning Representations (ICLR), 2021. — arXiv:2007.00808
 16. Gao, L., Callan, J. Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval // Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL), 2022. — P. 2843–2853.
 
 Векторный поиск и similarity search
+
 17. Johnson, J., Douze, M., Jégou, H. Billion-Scale Similarity Search with GPUs // IEEE Transactions on Big Data, 2021. — Vol. 7, No. 3. — P. 535–547. — IEEE Xplore | GitHub: facebookresearch/faiss
 Генерация и оценка качества
 18. Liu, N.F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., Liang, P. Lost in the Middle: How Language Models Use Long Contexts // Transactions of the Association for Computational Linguistics (TACL), 2024. — Vol. 12. — P. 157–173. — arXiv:2307.03172
@@ -896,6 +898,7 @@ if __name__ == '__main__':
 20. Wang, L., Yang, N., Wei, F. Query2doc: Query Expansion with Large Language Models // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 9414–9423. — arXiv:2303.07678
 
 Мультимодальный и специализированный RAG
+
 21. Chen, W., He, H., Cheng, Y., Chang, M.W., Cohen, W.W., Wang, W.Y. MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text // Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022. — P. 5558–5570.
 
 
