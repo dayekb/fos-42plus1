@@ -273,24 +273,54 @@ RAG — это конвейерная архитектура, где снача�
 
 ## 📚 Рекомендуемая литература
 
-📚 Обзорные статьи по RAG
-1. Lewis, P., Perez, E., Piktus, A., et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. NeurIPS 2020. arXiv: http://arxiv.org/abs/2005.11401v4
-2. Gao, Y., Xiong, Y., Gao, X., et al. (2023). Retrieval-Augmented Generation for Large Language Models: A Survey. arXiv:2312.10997. arXiv: https://arxiv.org/abs/2312.10997
-3. Gupta, S., Ranjan, R., & Singh, S. N. (2024). A Comprehensive Survey of Retrieval-Augmented Generation (RAG): Evolution, Current Landscape and Future Directions. arXiv:2410.12837. arXiv: https://arxiv.org/abs/2410.12837
-4. Ding, Y., Fan, W., Ning, L., et al. (2024). A Survey on RAG Meets LLMs: Towards Retrieval-Augmented Large Language Models. arXiv:2405.06211. arXiv: http://arxiv.org/abs/2405.06211v1
-5. Wu, S., Xiong, Y., Cui, Y., et al. (2024). Retrieval-Augmented Generation for Natural Language Processing: A Survey. arXiv:2407.13193. arXiv: https://arxiv.org/abs/2407.13193v2
+Фундаментальные работы по RAG
 
-🕸️ KAG / GraphRAG (Графовые подходы)
+1. Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W.-t., Rocktäschel, T., Riedel, S., Kiela, D. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks // Advances in Neural Information Processing Systems (NeurIPS), 2020. — Vol. 33. — P. 9459–9474. — https://arxiv.org/abs/2005.11401
+2. Guu, K., Lee, K., Tung, Z., Pasupat, P., Chang, M.W. REALM: Retrieval-Augmented Language Model Pre-Training // Proceedings of the 37th International Conference on Machine Learning (ICML), 2020. — P. 3929–3938. — https://arxiv.org/abs/2002.08909
+3. Izacard, G., Lewis, P., Lomeli, M., Hosseini, L., Petroni, F., Schick, T., Dwivedi-Yu, J., Joulin, A., Riedel, S., Grave, E. Atlas: Few-shot Learning with Retrieval Augmented Language Models // Journal of Machine Learning Research (JMLR), 2023. — Vol. 24. — P. 1–43. — https://arxiv.org/abs/2208.03299
+4. Asai, A., Wu, Z., Wang, Y., Sil, A., Hajishirzi, H. Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection // Proceedings of the International Conference on Learning Representations (ICLR), 2024. — https://arxiv.org/abs/2310.11511
+5. Jiang, Z., Xu, F., Gao, L., Sun, Z., Liu, Q., Dwivedi-Yu, J., Yang, Y., Callan, J., Neubig, G. Active Retrieval Augmented Generation // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 7969–7992. — https://arxiv.org/abs/2305.06983
+6. Sarthi, P., Abdullah, S., Tuli, A., Khanna, S., Goldie, A., Manning, C.D. RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval // Proceedings of the International Conference on Learning Representations (ICLR), 2024. — https://arxiv.org/abs/2401.18059
 
-6. Peng, B., et al. (2024). Graph Retrieval-Augmented Generation: A Survey. arXiv:2408.08921. arXiv: http://arxiv.org/abs/2408.08921
-7. Pan, S., et al. (2026). Knowledge graphs and large language models: Construction paradigms, integration approaches, and emerging applications. Elsevier. ScienceDirect: https://www.sciencedirect.com/science/article/abs/pii/S0950705126013274
+Эмбеддинги и векторные представления
 
-💾 Векторные базы данных и эмбеддинги
+7. Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., Liu, Z. BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation // arXiv preprint arXiv:2402.03216, 2024. — https://arxiv.org/abs/2402.03216 | https://huggingface.co/BAAI/bge-m3
+8. Karpukhin, V., Oguz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D., Yih, W.-t. Dense Passage Retrieval for Open-Domain Question Answering // Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. — P. 6769–6781. — https://arxiv.org/abs/2004.04906
+9. Xiong, L., Xiong, C., Li, Y., Tang, K.F., Liu, J., Bennett, P., Ahmed, J., Overwijk, A. Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval // Proceedings of the International Conference on Learning Representations (ICLR), 2021. — https://arxiv.org/abs/2007.00808
+10. Gao, L., Callan, J. Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval // Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL), 2022. — P. 2843–2853.
+    
+Векторный поиск и similarity search
 
-8. Pan, J. J., Wang, J., & Li, G. (2024). Survey of Vector Database Management Systems. The VLDB Journal, 33, 1591–1615. DOI: https://doi.org/10.1007/s00778-024-00864-x
+11. Johnson, J., Douze, M., Jégou, H. Billion-Scale Similarity Search with GPUs // IEEE Transactions on Big Data, 2021. — Vol. 7, No. 3. — P. 535–547. — https://ieeexplore.ieee.org/document/8733051 | https://github.com/facebookresearch/faiss
+12. Khattab, O., Zaharia, M. ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT // Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2020. — https://arxiv.org/abs/2004.12832
 
-🎯 Реранкинг
+Гибридный поиск и ранжирование
 
-9. Pandit, T., et al. (2025). The Evolution of Reranking Models in Information Retrieval: From Heuristic Methods to Large Language Models. arXiv:2512.16236. arXiv: https://arxiv.org/abs/2512.16236
+13. Robertson, S., Zaragoza, H. The Probabilistic Relevance Framework: BM25 and Beyond // Foundations and Trends in Information Retrieval, 2009. — Vol. 3, No. 4. — P. 333–389. — DOI: 10.1561/1500000019 — https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf
+14. Cormack, G.V., Clarke, C.L.A., Buettcher, S. Reciprocal Rank Fusion Outperforms Condorcet and Individual Rank Learning Methods // Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2009. — P. 758–759. — DOI: 10.1145/1571941.1572114 — https://dl.acm.org/doi/10.1145/1571941.1572114
+15. Nogueira, R., Cho, K. Passage Re-ranking with BERT // arXiv preprint arXiv:1901.04085, 2019. — https://arxiv.org/abs/1901.04085
+16. Nogueira, R., Yang, W., Cho, K., Lin, J. Multi-Stage Document Ranking with BERT // Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. — https://arxiv.org/abs/1910.14424
+    
+KAG — Knowledge-Augmented Generation
 
+17. Guan, X., Liu, Y., Lin, H., Lu, Y., He, B., Han, X., Sun, L. Mitigating Large Language Model Hallucinations via Autonomous Knowledge Graph-based Retrofitting // Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024. — P. 18126–18134. — https://ojs.aaai.org/index.php/AAAI/article/view/29879
+18. Hu, Z., Xu, Y., Yu, W., Wang, S., Yang, Z., Zhu, C., Chang, K.-W., Sun, Y. Empowering Language Models with Knowledge Graph Reasoning for Question Answering // Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022. — P. 9562–9581.
+19. Hu, Y., Lei, Z., Zhang, Z., Pan, B., Ling, C., Zhao, L. GRAG: Graph Retrieval-Augmented Generation // arXiv preprint arXiv:2405.16506, 2024. — https://arxiv.org/abs/2405.16506
 
+CAG — Cache-Augmented Generation
+
+20. Gim, J., Park, J., Jeong, S., Kim, S. Prompt Cache: Modular Attention Reuse for Low-Latency Inference // Proceedings of the 2024 Annual Meeting of the Association for Computational Linguistics (ACL), 2024.
+21. Liu, Z., Desai, A., Liao, F., Sivashunmugam, V., Lu, B., Khandelwal, D., Chellappa, R., Krishnamurthy, A. RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation // arXiv preprint arXiv:2404.12457, 2024. — https://arxiv.org/abs/2404.12457
+
+Query Rewriting
+
+22. Ma, X., Gong, Y., He, P., Zhao, H., Duan, N. Query Rewriting for Retrieval-Augmented Large Language Models // arXiv preprint arXiv:2305.14283, 2023. — https://arxiv.org/abs/2305.14283
+23. Gao, L., Ma, X., Lin, J., Callan, J. Precise Zero-Shot Dense Retrieval without Relevance Labels // Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL), 2023. — (HyDE — Hypothetical Document Embeddings) — https://arxiv.org/abs/2212.10496
+24. Wang, L., Yang, N., Wei, F. Query2doc: Query Expansion with Large Language Models // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 9414–9423. — https://arxiv.org/abs/2303.07678
+
+Оценка качества и метрики
+
+25. Liu, N.F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., Liang, P. Lost in the Middle: How Language Models Use Long Contexts // Transactions of the Association for Computational Linguistics (TACL), 2024. — Vol. 12. — P. 157–173. — https://arxiv.org/abs/2307.03172
+26. Saad-Falcon, J., Khattab, O., Potts, C., Zaharia, M. ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems // Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024. — P. 338–354.
+27. Liu, Y., Iter, D., Xu, Y., Wang, S., Xu, R., Zhu, C. G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 2511–2522. — https://arxiv.org/abs/2303.16634
+28. Chen, J., Lin, H., Han, X., Sun, L. Benchmarking Large Language Models in Retrieval-Augmented Generation // Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024. — Vol. 38. — P. 17754–17762.
