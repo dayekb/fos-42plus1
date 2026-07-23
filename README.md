@@ -121,7 +121,7 @@
 - [Модуль 2](M2-Context-Engineering/README.md) ;
 - [Модуль 3](M3-Agent-Engineering/README.md) ;
 - [Модуль 4](M4-Evaluation-Engineering/README.md);
-- [Экзамен](Exam/README.md) — промежуточная аттестация.
+- [Экзамен](Exam/README.md).
 
 
 ## 4. Итоговая оценка
