@@ -276,51 +276,50 @@ RAG — это конвейерная архитектура, где снача�
 📚 Обзорные статьи по RAG
 Lewis, P., Perez, E., Piktus, A., et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. NeurIPS 2020.
 
-arXiv: http://arxiv.org/abs/2005.11401v4[reference:0]
+arXiv: http://arxiv.org/abs/2005.11401v4
 
-NeurIPS Proceedings: https://proceedings.neurips.cc[reference:1]
+NeurIPS Proceedings: https://proceedings.neurips.cc
 
 Gao, Y., Xiong, Y., Gao, X., et al. (2023). Retrieval-Augmented Generation for Large Language Models: A Survey. arXiv:2312.10997.
 
-arXiv: https://arxiv.org/abs/2312.10997[reference:2]
+arXiv: https://arxiv.org/abs/2312.10997
 
 Gupta, S., Ranjan, R., & Singh, S. N. (2024). A Comprehensive Survey of Retrieval-Augmented Generation (RAG): Evolution, Current Landscape and Future Directions. arXiv:2410.12837.
 
-arXiv: https://arxiv.org/abs/2410.12837[reference:3]
+arXiv: https://arxiv.org/abs/2410.12837
 
-Дополнительно: https://huggingface.co/papers/2410.12837[reference:4]
+Дополнительно: https://huggingface.co/papers/2410.12837
 
 Ding, Y., Fan, W., Ning, L., et al. (2024). A Survey on RAG Meets LLMs: Towards Retrieval-Augmented Large Language Models. arXiv:2405.06211.
 
-arXiv: http://arxiv.org/abs/2405.06211v1[reference:5]
+arXiv: http://arxiv.org/abs/2405.06211v1
 
 ACM SIGKDD: https://dl.acm.org/doi/10.1145/3637528.3671604 (опубликованная версия)
 
 Wu, S., Xiong, Y., Cui, Y., et al. (2024). Retrieval-Augmented Generation for Natural Language Processing: A Survey. arXiv:2407.13193.
 
-arXiv: https://arxiv.org/abs/2407.13193v2[reference:7]
+arXiv: https://arxiv.org/abs/2407.13193v2
 
 🕸️ KAG / GraphRAG (Графовые подходы)
 Peng, B., et al. (2024). Graph Retrieval-Augmented Generation: A Survey. arXiv:2408.08921.
 
-arXiv: http://arxiv.org/abs/2408.08921[reference:8]
+arXiv: http://arxiv.org/abs/2408.08921
 
-Дополнительно: https://graphrag.com[reference:9]
 
 Pan, S., et al. (2026). Knowledge graphs and large language models: Construction paradigms, integration approaches, and emerging applications. Elsevier.
 
-ScienceDirect: https://www.sciencedirect.com/science/article/pii/S0306457326001234[reference:10]
+ScienceDirect: https://www.sciencedirect.com/science/article/pii/S0306457326001234
 
 💾 Векторные базы данных и эмбеддинги
 Pan, J. J., Wang, J., & Li, G. (2024). Survey of Vector Database Management Systems. The VLDB Journal, 33, 1591–1615.
 
-DOI: https://doi.org/10.1007/s00778-024-00864-x[reference:11]
+DOI: https://doi.org/10.1007/s00778-024-00864-x
 
-ACM Digital Library: https://dl.acm.org/doi/10.1007/s00778-024-00864-x[reference:12]
+ACM Digital Library: https://dl.acm.org/doi/10.1007/s00778-024-00864-x
 
 🎯 Реранкинг
 Pandit, T., et al. (2025). The Evolution of Reranking Models in Information Retrieval: From Heuristic Methods to Large Language Models. arXiv:2512.16236.
 
-arXiv: https://arxiv.org/abs/2512.16236[reference:13]
+arXiv: https://arxiv.org/abs/2512.16236
 
 
