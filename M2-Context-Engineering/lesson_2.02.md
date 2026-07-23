@@ -873,9 +873,6 @@ if __name__ == '__main__':
 3. Sharma, C. (2025).** Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustness Frontiers. *arXiv preprint*. https://arxiv.org/abs/2505.12345
 4. Brehme, L., Ströhle, T., & Breu, R. (2025).** Can LLMs Be Trusted for Evaluating RAG Systems? A Survey of Methods and Datasets. *2025 IEEE Swiss Conference on Data Science*, pp. 16–23. https://ieeexplore.ieee.org/document/xxxx
 5. Zhao, P., Zhang, H., Yu, Q., Wang, Z., Geng, Y., Fu, F., Yang, L., Zhang, W., & Cui, B. (2026).** Retrieval-Augmented Generation for AI-Generated Content: A Survey. *Data Science and Engineering*, 11(1), 1–29. https://link.springer.com/article/10.1007/s41019-025-00335-5
-6. A Survey on Retrieval-Augmented Generation Technology in Large Language Models (2026).** *Discover Artificial Intelligence*. https://link.springer.com/article/10.1007/s44163-025-00215-3
-
----
 
 ## Векторные базы данных и поиск
 
