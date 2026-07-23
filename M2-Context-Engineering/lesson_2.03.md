@@ -688,7 +688,7 @@ else:
 1. **BM25**: Robertson, S., & Zaragoza, H. (2009). The Probabilistic Relevance Framework: BM25 and Beyond. *Foundations and Trends in Information Retrieval*.
 2. **RRF**: Cormack, G. V., Clarke, C. L., & Buettcher, S. (2009). Reciprocal rank fusion outperforms Condorcet and individual rank learning methods. *SIGIR 2009*.
 3. **Cross-Encoder**: Nogueira, R., & Cho, K. (2019). Passage Re-ranking with BERT. *arXiv:1901.04085*.
-4. **Query Rewriting**: Vakili, T., et al. (2024). Query Rewriting for RAG Systems. *arXiv:2405.12345*.
+4. **Query Rewriting**: Ma, X., et al. (2023). Query Rewriting for Retrieval-Augmented Large Language Models. *arXiv:2305.14283*.
 5. **LangChain Hybrid Search**: [Официальная документация](https://python.langchain.com/docs/modules/data_connection/retrievers/hybrid/)
 6. **Qdrant Hybrid Search**: [Документация Qdrant](https://qdrant.tech/documentation/concepts/search/#hybrid-search)
 7. **Sentence-Transformers Cross-Encoder**: [Hugging Face](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2)
