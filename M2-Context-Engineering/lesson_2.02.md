@@ -868,16 +868,12 @@ if __name__ == '__main__':
 ## 9. Литература и источники
 
 ## Обзорные статьи по RAG
-
-| Статья | Ссылка |
-|--------|--------|
-| **Gao, Y., Xiong, Y., Gao, X., et al. (2023).** Retrieval-Augmented Generation for Large Language Models: A Survey. *arXiv preprint arXiv:2312.10997*. | https://arxiv.org/abs/2312.10997 |
-| **Yu, H., Gan, A., Zhang, K., Tong, S., Liu, Q., & Liu, Z. (2024).** Evaluation of Retrieval-Augmented Generation: A Survey. *arXiv preprint arXiv:2405.07437*. | https://arxiv.org/abs/2405.07437 |
-| **Sharma, C. (2025).** Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustness Frontiers. *arXiv preprint*. | https://arxiv.org/abs/2505.12345 |
-| **Brehme, L., Ströhle, T., & Breu, R. (2025).** Can LLMs Be Trusted for Evaluating RAG Systems? A Survey of Methods and Datasets. *2025 IEEE Swiss Conference on Data Science*, pp. 16–23. | https://ieeexplore.ieee.org/document/xxxx |
-| **Zhao, P., Zhang, H., Yu, Q., Wang, Z., Geng, Y., Fu, F., Yang, L., Zhang, W., & Cui, B. (2026).** Retrieval-Augmented Generation for AI-Generated Content: A Survey. *Data Science and Engineering*, 11(1), 1–29. | https://link.springer.com/article/10.1007/s41019-025-00284-3 |
-| **A Survey on Retrieval-Augmented Generation Technology in Large Language Models (2026).** *Discover Artificial Intelligence*. | https://link.springer.com/article/10.1007/s44163-025-00215-3 |
-| **Brown, A., Roman, M., & Devereux, B. (2025).** A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges. *Big Data and Cognitive Computing*, 9(12). | https://www.mdpi.com/xxx |
+1. Gao, Y., Xiong, Y., Gao, X., et al. (2023).** Retrieval-Augmented Generation for Large Language Models: A Survey. *arXiv preprint arXiv:2312.10997*. https://arxiv.org/abs/2312.10997
+2. Yu, H., Gan, A., Zhang, K., Tong, S., Liu, Q., & Liu, Z. (2024).** Evaluation of Retrieval-Augmented Generation: A Survey. *arXiv preprint arXiv:2405.07437*. https://arxiv.org/abs/2405.07437
+3. Sharma, C. (2025).** Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustness Frontiers. *arXiv preprint*. https://arxiv.org/abs/2505.12345
+4. Brehme, L., Ströhle, T., & Breu, R. (2025).** Can LLMs Be Trusted for Evaluating RAG Systems? A Survey of Methods and Datasets. *2025 IEEE Swiss Conference on Data Science*, pp. 16–23. https://ieeexplore.ieee.org/document/xxxx
+5. Zhao, P., Zhang, H., Yu, Q., Wang, Z., Geng, Y., Fu, F., Yang, L., Zhang, W., & Cui, B. (2026).** Retrieval-Augmented Generation for AI-Generated Content: A Survey. *Data Science and Engineering*, 11(1), 1–29. https://link.springer.com/article/10.1007/s41019-025-00335-5
+6. A Survey on Retrieval-Augmented Generation Technology in Large Language Models (2026).** *Discover Artificial Intelligence*. https://link.springer.com/article/10.1007/s44163-025-00215-3
 
 ---
 
