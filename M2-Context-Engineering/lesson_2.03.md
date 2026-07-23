@@ -673,54 +673,54 @@ else:
 
 Фундаментальные работы по информационному поиску и ранжированию
 
-Robertson, S., Zaragoza, H. The Probabilistic Relevance Framework: BM25 and Beyond // Foundations and Trends in Information Retrieval, 2009. — Vol. 3, No. 4. — P. 333–389. — DOI: 10.1561/1500000019 — https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf
-Cormack, G.V., Clarke, C.L.A., Buettcher, S. Reciprocal Rank Fusion Outperforms Condorcet and Individual Rank Learning Methods // Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2009. — P. 758–759. — DOI: 10.1145/1571941.1572114 — https://research.google/pubs/reciprocal-rank-fusion-outperforms-condorcet-and-individual-rank-learning-methods/
-Nogueira, R., Cho, K. Passage Re-ranking with BERT // arXiv preprint arXiv:1901.04085, 2019. — https://arxiv.org/abs/1901.04085
-Nogueira, R., Yang, W., Cho, K., Lin, J. Multi-Stage Document Ranking with BERT // Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. — https://arxiv.org/abs/1910.14424
-Khattab, O., Zaharia, M. ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT // Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2020. — https://arxiv.org/abs/2004.12832
+1. Robertson, S., Zaragoza, H. The Probabilistic Relevance Framework: BM25 and Beyond // Foundations and Trends in Information Retrieval, 2009. — Vol. 3, No. 4. — P. 333–389. — DOI: 10.1561/1500000019 — https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf
+2. Cormack, G.V., Clarke, C.L.A., Buettcher, S. Reciprocal Rank Fusion Outperforms Condorcet and Individual Rank Learning Methods // Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2009. — P. 758–759. — DOI: 10.1145/1571941.1572114 — https://research.google/pubs/reciprocal-rank-fusion-outperforms-condorcet-and-individual-rank-learning-methods/
+3. Nogueira, R., Cho, K. Passage Re-ranking with BERT // arXiv preprint arXiv:1901.04085, 2019. — https://arxiv.org/abs/1901.04085
+4. Nogueira, R., Yang, W., Cho, K., Lin, J. Multi-Stage Document Ranking with BERT // Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. — https://arxiv.org/abs/1910.14424
+5. Khattab, O., Zaharia, M. ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT // Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2020. — https://arxiv.org/abs/2004.12832
 
 RAG и нейронный поиск
 
-Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W.-t., Rocktäschel, T., Riedel, S., Kiela, D. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks // Advances in Neural Information Processing Systems (NeurIPS), 2020. — Vol. 33. — P. 9459–9474. — https://arxiv.org/abs/2005.11401
-Guu, K., Lee, K., Tung, Z., Pasupat, P., Chang, M.W. REALM: Retrieval-Augmented Language Model Pre-Training // Proceedings of the 37th International Conference on Machine Learning (ICML), 2020. — P. 3929–3938. — https://arxiv.org/abs/2002.08909
-Izacard, G., Lewis, P., Lomeli, M., Hosseini, L., Petroni, F., Schick, T., Dwivedi-Yu, J., Joulin, A., Riedel, S., Grave, E. Atlas: Few-shot Learning with Retrieval Augmented Language Models // Journal of Machine Learning Research (JMLR), 2023. — Vol. 24. — P. 1–43. — https://arxiv.org/abs/2208.03299
-Asai, A., Wu, Z., Wang, Y., Sil, A., Hajishirzi, H. Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection // Proceedings of the International Conference on Learning Representations (ICLR), 2024. — https://arxiv.org/abs/2310.11511
-Jiang, Z., Xu, F., Gao, L., Sun, Z., Liu, Q., Dwivedi-Yu, J., Yang, Y., Callan, J., Neubig, G. Active Retrieval Augmented Generation // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 7969–7992. — https://arxiv.org/abs/2305.06983
-Sarthi, P., Abdullah, S., Tuli, A., Khanna, S., Goldie, A., Manning, C.D. RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval // Proceedings of the International Conference on Learning Representations (ICLR), 2024. — https://arxiv.org/abs/2401.18059
+6. Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W.-t., Rocktäschel, T., Riedel, S., Kiela, D. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks // Advances in Neural Information Processing Systems (NeurIPS), 2020. — Vol. 33. — P. 9459–9474. — https://arxiv.org/abs/2005.11401
+7. Guu, K., Lee, K., Tung, Z., Pasupat, P., Chang, M.W. REALM: Retrieval-Augmented Language Model Pre-Training // Proceedings of the 37th International Conference on Machine Learning (ICML), 2020. — P. 3929–3938. — https://arxiv.org/abs/2002.08909
+8. Izacard, G., Lewis, P., Lomeli, M., Hosseini, L., Petroni, F., Schick, T., Dwivedi-Yu, J., Joulin, A., Riedel, S., Grave, E. Atlas: Few-shot Learning with Retrieval Augmented Language Models // Journal of Machine Learning Research (JMLR), 2023. — Vol. 24. — P. 1–43. — https://arxiv.org/abs/2208.03299
+9. Asai, A., Wu, Z., Wang, Y., Sil, A., Hajishirzi, H. Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection // Proceedings of the International Conference on Learning Representations (ICLR), 2024. — https://arxiv.org/abs/2310.11511
+10. Jiang, Z., Xu, F., Gao, L., Sun, Z., Liu, Q., Dwivedi-Yu, J., Yang, Y., Callan, J., Neubig, G. Active Retrieval Augmented Generation // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 7969–7992. — https://arxiv.org/abs/2305.06983
+11. Sarthi, P., Abdullah, S., Tuli, A., Khanna, S., Goldie, A., Manning, C.D. RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval // Proceedings of the International Conference on Learning Representations (ICLR), 2024. — https://arxiv.org/abs/2401.18059
 
 Query Rewriting и оптимизация запросов
 
-Ma, X., Gong, Y., He, P., Zhao, H., Duan, N. Query Rewriting for Retrieval-Augmented Large Language Models // arXiv preprint arXiv:2305.14283, 2023. — https://arxiv.org/abs/2305.14283
-Gao, L., Ma, X., Lin, J., Callan, J. Precise Zero-Shot Dense Retrieval without Relevance Labels // Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL), 2023. — (HyDE — Hypothetical Document Embeddings) — https://arxiv.org/abs/2212.10496
-Mao, S., Jiang, Y., Chen, B., Li, X., Wang, P., Wang, X., Xie, P., Huang, F., Chen, H., Zhang, N. RAFE: Ranking Feedback Improves Query Rewriting for RAG // arXiv preprint arXiv:2405.14431, 2024. — https://arxiv.org/abs/2405.14431
-Wang, Y., Zhang, H., Pang, L., Zheng, H., Zheng, Z. MAFERW: Query Rewriting with Multi-Aspect Feedbacks for Retrieval-Augmented Large Language Models // arXiv preprint arXiv:2408.17072, 2024. — https://arxiv.org/abs/2408.17072
-Sun, Z., Wang, Q., Yu, W., Zang, X., Zheng, K., Xu, J., Zhang, X., Song, Y., Li, H. Q-PRM: Adaptive Query Rewriting for Retrieval-Augmented Generation with Process Reward Model // Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP) — Findings, 2025. — https://aclanthology.org/2025.findings-emnlp.817.pdf
+12. Ma, X., Gong, Y., He, P., Zhao, H., Duan, N. Query Rewriting for Retrieval-Augmented Large Language Models // arXiv preprint arXiv:2305.14283, 2023. — https://arxiv.org/abs/2305.14283
+13. Gao, L., Ma, X., Lin, J., Callan, J. Precise Zero-Shot Dense Retrieval without Relevance Labels // Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL), 2023. — (HyDE — Hypothetical Document Embeddings) — https://arxiv.org/abs/2212.10496
+14. Mao, S., Jiang, Y., Chen, B., Li, X., Wang, P., Wang, X., Xie, P., Huang, F., Chen, H., Zhang, N. RAFE: Ranking Feedback Improves Query Rewriting for RAG // arXiv preprint arXiv:2405.14431, 2024. — https://arxiv.org/abs/2405.14431
+15. Wang, Y., Zhang, H., Pang, L., Zheng, H., Zheng, Z. MAFERW: Query Rewriting with Multi-Aspect Feedbacks for Retrieval-Augmented Large Language Models // arXiv preprint arXiv:2408.17072, 2024. — https://arxiv.org/abs/2408.17072
+16. Sun, Z., Wang, Q., Yu, W., Zang, X., Zheng, K., Xu, J., Zhang, X., Song, Y., Li, H. Q-PRM: Adaptive Query Rewriting for Retrieval-Augmented Generation with Process Reward Model // Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP) — Findings, 2025. — https://aclanthology.org/2025.findings-emnlp.817.pdf
 
 Гибридный поиск и query expansion
 
-Karpukhin, V., Oguz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D., Yih, W.-t. Dense Passage Retrieval for Open-Domain Question Answering // Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. — P. 6769–6781. — https://arxiv.org/abs/2004.04906
-Xiong, L., Xiong, C., Li, Y., Tang, K.F., Liu, J., Bennett, P., Ahmed, J., Overwijk, A. Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval // Proceedings of the International Conference on Learning Representations (ICLR), 2021. — https://arxiv.org/abs/2007.00808
-Gao, L., Callan, J. Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval // Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL), 2022. — P. 2843–2853.
-Ye, F., Fang, M., Li, S., Yilmaz, E. Corpus-Steered Query Expansion with Large Language Models // Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL), 2024. — https://aclanthology.org/2024.eacl-short.34.pdf
-Otero, D., et al. LLM-Assisted Pseudo-Relevance Feedback // Proceedings of the European Conference on Information Retrieval (ECIR), 2026. — https://arxiv.org/abs/2601.11238
+17. Karpukhin, V., Oguz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen, D., Yih, W.-t. Dense Passage Retrieval for Open-Domain Question Answering // Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020. — P. 6769–6781. — https://arxiv.org/abs/2004.04906
+18. Xiong, L., Xiong, C., Li, Y., Tang, K.F., Liu, J., Bennett, P., Ahmed, J., Overwijk, A. Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval // Proceedings of the International Conference on Learning Representations (ICLR), 2021. — https://arxiv.org/abs/2007.00808
+19. Gao, L., Callan, J. Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval // Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL), 2022. — P. 2843–2853.
+20. Ye, F., Fang, M., Li, S., Yilmaz, E. Corpus-Steered Query Expansion with Large Language Models // Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL), 2024. — https://aclanthology.org/2024.eacl-short.34.pdf
+21. Otero, D., et al. LLM-Assisted Pseudo-Relevance Feedback // Proceedings of the European Conference on Information Retrieval (ECIR), 2026. — https://arxiv.org/abs/2601.11238
 
 Оценка качества и метрики
 
-Liu, N.F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., Liang, P. Lost in the Middle: How Language Models Use Long Contexts // Transactions of the Association for Computational Linguistics (TACL), 2024. — Vol. 12. — P. 157–173. — https://arxiv.org/abs/2307.03172
-Saad-Falcon, J., Khattab, O., Potts, C., Zaharia, M. ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems // Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024. — P. 338–354.
-Liu, Y., Iter, D., Xu, Y., Wang, S., Xu, R., Zhu, C. G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 2511–2522. — https://arxiv.org/abs/2303.16634
-Wang, L., Yang, N., Wei, F. Query2doc: Query Expansion with Large Language Models // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 9414–9423. — https://arxiv.org/abs/2303.07678
-Chen, J., Lin, H., Han, X., Sun, L. Benchmarking Large Language Models in Retrieval-Augmented Generation // Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024. — Vol. 38. — P. 17754–17762.
+22. Liu, N.F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., Liang, P. Lost in the Middle: How Language Models Use Long Contexts // Transactions of the Association for Computational Linguistics (TACL), 2024. — Vol. 12. — P. 157–173. — https://arxiv.org/abs/2307.03172
+23. Saad-Falcon, J., Khattab, O., Potts, C., Zaharia, M. ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems // Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024. — P. 338–354.
+24. Liu, Y., Iter, D., Xu, Y., Wang, S., Xu, R., Zhu, C. G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 2511–2522. — https://arxiv.org/abs/2303.16634
+25. Wang, L., Yang, N., Wei, F. Query2doc: Query Expansion with Large Language Models // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 9414–9423. — https://arxiv.org/abs/2303.07678
+26. Chen, J., Lin, H., Han, X., Sun, L. Benchmarking Large Language Models in Retrieval-Augmented Generation // Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024. — Vol. 38. — P. 17754–17762.
 
 Мультимодальный RAG и специализированные модели
 
-Chen, W., He, H., Cheng, Y., Chang, M.W., Cohen, W.W., Wang, W.Y. MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text // Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022. — P. 5558–5570.
-Patel, R.N., Dutta, S. ColBERT-Att: Late-Interaction Meets Attention for Enhanced Retrieval // arXiv preprint arXiv:2603.25248, 2026. — https://arxiv.org/abs/2603.25248
+27. Chen, W., He, H., Cheng, Y., Chang, M.W., Cohen, W.W., Wang, W.Y. MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text // Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022. — P. 5558–5570.
+28. Patel, R.N., Dutta, S. ColBERT-Att: Late-Interaction Meets Attention for Enhanced Retrieval // arXiv preprint arXiv:2603.25248, 2026. — https://arxiv.org/abs/2603.25248
 
 Обзоры
 
-Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J., Guo, Q., Wang, M., Wang, H. Retrieval-Augmented Generation for Large Language Models: A Survey // arXiv preprint arXiv:2312.10997, 2023. — https://arxiv.org/abs/2312.10997
-Mialon, G., Dessì, R., Lomeli, M., Nalmpantis, C., Pasunuru, R., Raileanu, R., Rozière, B., Schick, T., Dwivedi-Yu, J., Celikyilmaz, A., et al. Augmented Language Models: a Survey // Transactions on Machine Learning Research (TMLR), 2023.
+29. Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J., Guo, Q., Wang, M., Wang, H. Retrieval-Augmented Generation for Large Language Models: A Survey // arXiv preprint arXiv:2312.10997, 2023. — https://arxiv.org/abs/2312.10997
+30. Mialon, G., Dessì, R., Lomeli, M., Nalmpantis, C., Pasunuru, R., Raileanu, R., Rozière, B., Schick, T., Dwivedi-Yu, J., Celikyilmaz, A., et al. Augmented Language Models: a Survey // Transactions on Machine Learning Research (TMLR), 2023.
 
 ---
 
