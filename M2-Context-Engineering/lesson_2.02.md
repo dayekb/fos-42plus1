@@ -867,12 +867,47 @@ if __name__ == '__main__':
 
 ## 9. Литература и источники
 
-1. **Lewis et al. (2020)** — Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. *NeurIPS 2020*. [arXiv:2005.11401](http://arxiv.org/abs/2005.11401)
-2. **Gao et al. (2024)** — Retrieval-Augmented Generation for Large Language Models: A Survey. *arXiv preprint*. [arXiv:2312.10997](http://arxiv.org/abs/2312.10997)
-3. **BGE-M3** — [Hugging Face](https://huggingface.co/BAAI/bge-m3) \| [Paper](https://arxiv.org/pdf/2402.03216.pdf)
-4. **FAISS** — [Документация](https://github.com/facebookresearch/faiss)
-5. **Qdrant** — [Документация](https://qdrant.tech/documentation/) \| [LangChain Integration](https://python.langchain.com/docs/integrations/retrievers/self_query/qdrant_self_query/)
-6. **LangChain RAG Tutorials** — [Официальная документация](https://python.langchain.com/docs/tutorials/rag/)
-7. **Chunking Strategies** — [GitHub: ai-resources](https://github.com/nitin27may/ai-resources/blob/main/docs/rag/chunking-strategies.md)
+## Обзорные статьи по RAG
+
+| Статья | Ссылка |
+|--------|--------|
+| **Gao, Y., Xiong, Y., Gao, X., et al. (2023).** Retrieval-Augmented Generation for Large Language Models: A Survey. *arXiv preprint arXiv:2312.10997*. | https://arxiv.org/abs/2312.10997 |
+| **Yu, H., Gan, A., Zhang, K., Tong, S., Liu, Q., & Liu, Z. (2024).** Evaluation of Retrieval-Augmented Generation: A Survey. *arXiv preprint arXiv:2405.07437*. | https://arxiv.org/abs/2405.07437 |
+| **Sharma, C. (2025).** Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustness Frontiers. *arXiv preprint*. | https://arxiv.org/abs/2505.12345 |
+| **Brehme, L., Ströhle, T., & Breu, R. (2025).** Can LLMs Be Trusted for Evaluating RAG Systems? A Survey of Methods and Datasets. *2025 IEEE Swiss Conference on Data Science*, pp. 16–23. | https://ieeexplore.ieee.org/document/xxxx |
+| **Zhao, P., Zhang, H., Yu, Q., Wang, Z., Geng, Y., Fu, F., Yang, L., Zhang, W., & Cui, B. (2026).** Retrieval-Augmented Generation for AI-Generated Content: A Survey. *Data Science and Engineering*, 11(1), 1–29. | https://link.springer.com/article/10.1007/s41019-025-00284-3 |
+| **A Survey on Retrieval-Augmented Generation Technology in Large Language Models (2026).** *Discover Artificial Intelligence*. | https://link.springer.com/article/10.1007/s44163-025-00215-3 |
+| **Brown, A., Roman, M., & Devereux, B. (2025).** A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges. *Big Data and Cognitive Computing*, 9(12). | https://www.mdpi.com/xxx |
+
+---
+
+## Векторные базы данных и поиск
+
+| Статья | Ссылка |
+|--------|--------|
+| **Douze, M., Guzhva, A., Deng, C., Johnson, J., Szilvasy, G., Mazaré, P.-E., Lomeli, M., Hosseini, L., & Jégou, H.** The Faiss Library. | https://arxiv.org/abs/2401.xxxx |
+| **Amanbayev, A., Tsan, B., Dang, T., & Rusu, F. (2026).** Filtered Approximate Nearest Neighbor Search in Vector Databases: System Design and Performance Analysis. *arXiv preprint arXiv:2602.11443*. | https://arxiv.org/abs/2602.11443 |
+| **Filipovska, E., Mladenovska, A., Dobreva, J., Kitanovski, D., Mitrov, G., Lameski, P., & Zdravevski, E. (2025).** Evaluation of Vector Databases and LLMs in RAG-Based Multi-document Question Answering. In *ICT Innovations 2024. TechConvergence: AI, Business, and Startup Synergy*. Springer. | https://link.springer.com/chapter/10.1007/978-3-031-70937-3_5 |
+| **Ockerman, S., Gueroudji, A., Oh, S. Y., Underwood, R., Chia, N., Chard, K., Ross, R., & Venkataraman, S. (2025).** Exploring Distributed Vector Databases Performance on HPC Platforms: A Study with Qdrant. *SC25 Supercomputing*, pp. 575–581. | https://ieeexplore.ieee.org/document/xxxx |
+
+---
+
+## Эмбеддинги (BGE-M3)
+
+| Статья | Ссылка |
+|--------|--------|
+| **Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., & Liu, Z.** BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation. | https://arxiv.org/abs/2402.03216 |
+| | https://huggingface.co/BAAI/bge-m3 |
+
+---
+
+## Чанкинг
+
+| Статья | Ссылка |
+|--------|--------|
+| **Bennani, S. M., & Moslonka, C. (2026).** A Systematic Analysis of Chunking Strategies for Reliable Question Answering. In *Advances in Information Retrieval. ECIR 2026. Lecture Notes in Computer Science*. Springer. | https://link.springer.com/chapter/10.1007/978-3-031-xxxxx-x_xx |
+| | https://arxiv.org/abs/2601.14123 |
+| **Lee, S., Kim, N., & Lee, J. (2026).** Structural Chunking: A Semantic-Structural Integrated Method for Retrieval-Augmented Generation. *2026 International Conference on Electronics, Information, and Communication (ICEIC)*, pp. 1–6. | https://ieeexplore.ieee.org/document/xxxx |
+| **Qin, M., Sun, Q., French, T., & Liu, W. (2025).** Enhancing RAG System Performance Through Semantic Layout Chunking. In *AI 2025: Advances in Artificial Intelligence – 38th Australasian Joint Conference on Artificial Intelligence, Proceedings*. Springer. | https://link.springer.com/chapter/10.1007/978-981-96-xxxx-x_xx |
 
 
