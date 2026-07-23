@@ -283,7 +283,7 @@ RAG — это конвейерная архитектура, где снача�
 🕸️ KAG / GraphRAG (Графовые подходы)
 
 6. Peng, B., et al. (2024). Graph Retrieval-Augmented Generation: A Survey. arXiv:2408.08921. arXiv: http://arxiv.org/abs/2408.08921
-7. Pan, S., et al. (2026). Knowledge graphs and large language models: Construction paradigms, integration approaches, and emerging applications. Elsevier. ScienceDirect: https://www.sciencedirect.com/science/article/pii/S0306457326001234](https://www.sciencedirect.com/science/article/abs/pii/S0950705126013274
+7. Pan, S., et al. (2026). Knowledge graphs and large language models: Construction paradigms, integration approaches, and emerging applications. Elsevier. ScienceDirect: https://www.sciencedirect.com/science/article/pii/S0306457326001234
 
 💾 Векторные базы данных и эмбеддинги
 
