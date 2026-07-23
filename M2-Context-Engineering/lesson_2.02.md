@@ -897,8 +897,8 @@ if __name__ == '__main__':
 Генерация и оценка качества
 
 17. Liu, N.F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., Liang, P. Lost in the Middle: How Language Models Use Long Contexts // Transactions of the Association for Computational Linguistics (TACL), 2024. — Vol. 12. — P. 157–173. — arXiv:2307.03172
-18 .Saad-Falcon, J., Khattab, O., Potts, C., Zaharia, M. ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems // Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024. — P. 338–354.
-19 .Liu, Y., Iter, D., Xu, Y., Wang, S., Xu, R., Zhu, C. G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 2511–2522. — arXiv:2303.16634
+18. 18 .Saad-Falcon, J., Khattab, O., Potts, C., Zaharia, M. ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems // Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024. — P. 338–354.
+19. 19 .Liu, Y., Iter, D., Xu, Y., Wang, S., Xu, R., Zhu, C. G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 2511–2522. — arXiv:2303.16634
 20. Wang, L., Yang, N., Wei, F. Query2doc: Query Expansion with Large Language Models // Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023. — P. 9414–9423. — arXiv:2303.07678
 
 Мультимодальный и специализированный RAG
