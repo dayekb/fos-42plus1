@@ -284,15 +284,17 @@ from typing import List, Dict, Tuple
 import numpy as np
 
 class HybridRetriever:
-    def __init__(self, dense_store, bm25_retriever, k_rrf: int = 60):
+    def __init__(self, dense_store, bm25_retriever, embedder, k_rrf: int = 60):
         """
         Args:
             dense_store: FAISS/Qdrant хранилище с методом search
             bm25_retriever: экземпляр BM25Retriever
+            embedder: модель эмбеддингов для векторизации запроса
             k_rrf: константа для RRF (обычно 60)
         """
         self.dense_store = dense_store
         self.bm25 = bm25_retriever
+        self.embedder = embedder
         self.k_rrf = k_rrf
 
     def search(self, query: str, k: int = 10, dense_weight: float = 0.5) -> List[Tuple[Dict, float]]:
@@ -304,7 +306,8 @@ class HybridRetriever:
             dense_weight: вес для плотного поиска (если нужна настройка)
         """
         # 1. Dense-поиск (получаем top-k * 3 для запаса)
-        dense_results = self.dense_store.search(query, k=k*3)
+        query_embedding = self.embedder.encode_query(query)
+        dense_results = self.dense_store.search(query_embedding, k=k*3)
         dense_rank_map = {self._get_id(meta): rank for rank, (meta, score) in enumerate(dense_results)}
 
         # 2. BM25-поиск
@@ -460,10 +463,10 @@ class OptimizedRAGPipeline:
     def __init__(self, dense_store, bm25_retriever):
         self.dense_store = dense_store
         self.bm25_retriever = bm25_retriever
-        self.hybrid_retriever = HybridRetriever(dense_store, bm25_retriever)
+        self.embedder = EmbeddingModel()
+        self.hybrid_retriever = HybridRetriever(dense_store, bm25_retriever, self.embedder)
         self.reranker = CrossEncoderReranker()
         self.rewriter = QueryRewriter(use_llm=True)
-        self.embedder = EmbeddingModel()
 
     def retrieve(self, query: str, top_k: int = 5) -> List[Dict]:
         """Полный пайплайн ретривала с оптимизациями."""
@@ -559,7 +562,6 @@ import os
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.pipeline_baseline import BaselineRAGPipeline
 from src.pipeline_optimized import OptimizedRAGPipeline
 from evaluation.metrics import evaluate_retriever
 
@@ -573,19 +575,20 @@ from src.embeddings import EmbeddingModel
 from src.hybrid_retriever import BM25Retriever
 
 # Загрузка подготовленных данных
-vector_store = FAISSVectorStore.load('index/')
+vector_store = FAISSVectorStore(dimension=1024)
+vector_store.load('index/')
 embedder = EmbeddingModel()
 bm25 = BM25Retriever()
 bm25.fit(vector_store.metadata)  # Загружаем чанки
 
-baseline = BaselineRAGPipeline(vector_store, embedder)
 optimized = OptimizedRAGPipeline(vector_store, bm25)
 
-# 3. Оценка Baseline (чистый Dense)
+# 3. Оценка Baseline (чистый Dense из лабораторной 2.2)
 print("Оценка Baseline (Dense only)...")
 
 def baseline_retriever(query, k):
-    return baseline.retrieve(query, top_k=k)
+    query_embedding = embedder.encode_query(query)
+    return [meta for meta, score in vector_store.search(query_embedding, k=k)]
 
 baseline_metrics = evaluate_retriever(baseline_retriever, test_queries, k=5)
 
@@ -685,7 +688,7 @@ else:
 1. **BM25**: Robertson, S., & Zaragoza, H. (2009). The Probabilistic Relevance Framework: BM25 and Beyond. *Foundations and Trends in Information Retrieval*.
 2. **RRF**: Cormack, G. V., Clarke, C. L., & Buettcher, S. (2009). Reciprocal rank fusion outperforms Condorcet and individual rank learning methods. *SIGIR 2009*.
 3. **Cross-Encoder**: Nogueira, R., & Cho, K. (2019). Passage Re-ranking with BERT. *arXiv:1901.04085*.
-4. **Query Rewriting**: Vakili, T., et al. (2024). Query Rewriting for RAG Systems. *arXiv:2405.12345*.
+4. **Query Rewriting**: Ma, X., et al. (2023). Query Rewriting for Retrieval-Augmented Large Language Models. *arXiv:2305.14283*.
 5. **LangChain Hybrid Search**: [Официальная документация](https://python.langchain.com/docs/modules/data_connection/retrievers/hybrid/)
 6. **Qdrant Hybrid Search**: [Документация Qdrant](https://qdrant.tech/documentation/concepts/search/#hybrid-search)
 7. **Sentence-Transformers Cross-Encoder**: [Hugging Face](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2)

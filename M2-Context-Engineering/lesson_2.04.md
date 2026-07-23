@@ -239,10 +239,10 @@
 
 # 📚 Рекомендуемая литература
 
-1. **KAG** — Guan, X., et al. (2024). Knowledge Graph Augmented Large Language Models. *arXiv:2402.12345*.
-2. **CAG** — Liu, J., et al. (2025). Cache-Augmented Generation for Scalable LLM Systems. *arXiv:2501.01234*.
-3. **Multi‑Hop RAG** — Trivedi, H., et al. (2023). Interleaving Retrieval with Chain-of-Thought Reasoning. *arXiv:2301.12345*.
-4. **Optimizing LLM Latency** — Kim, S., et al. (2024). Speeding up LLM Inference with Model Racing. *arXiv:2405.67890*.
+1. **KAG** — Liang, L., et al. (2024). KAG: Boosting LLMs in Professional Domains via Knowledge Augmented Generation. *arXiv:2409.13731*.
+2. **CAG** — Chan, B. J., et al. (2024). Don't Do RAG: When Cache-Augmented Generation is All You Need for Knowledge Tasks. *arXiv:2412.15605*.
+3. **Multi‑Hop RAG** — Trivedi, H., et al. (2023). Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions. *arXiv:2212.10509*.
+4. **Optimizing LLM Latency** — Leviathan, Y., et al. (2023). Fast Inference from Transformers via Speculative Decoding. *arXiv:2211.17192*.
 5. **LangChain Cookbook** — разделы по кэшированию и графам.
 6. **Документация Neo4j** — для работы с графовыми БД.
 

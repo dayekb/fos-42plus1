@@ -3,7 +3,6 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.pipeline_baseline import BaselineRAGPipeline
 from src.pipeline_optimized import OptimizedRAGPipeline
 from evaluation.metrics import evaluate_retriever
 
@@ -17,18 +16,19 @@ from src.embeddings import EmbeddingModel
 from src.hybrid_retriever import BM25Retriever
 
 # Загрузка подготовленных данных
-vector_store = FAISSVectorStore.load('index/')
+vector_store = FAISSVectorStore(dimension=1024)
+vector_store.load('index/')
 embedder = EmbeddingModel()
 bm25 = BM25Retriever()
 bm25.fit(vector_store.metadata)  # Загружаем чанки
 
-baseline = BaselineRAGPipeline(vector_store, embedder)
 optimized = OptimizedRAGPipeline(vector_store, bm25)
 
-# 3. Оценка Baseline (чистый Dense)
+# 3. Оценка Baseline (чистый Dense из лабораторной 2.2)
 print("Оценка Baseline (Dense only)...")
 def baseline_retriever(query, k):
-    return baseline.retrieve(query, top_k=k)
+    query_embedding = embedder.encode_query(query)
+    return [meta for meta, score in vector_store.search(query_embedding, k=k)]
 baseline_metrics = evaluate_retriever(baseline_retriever, test_queries, k=5)
 
 # 4. Оценка Optimized (Hybrid + Rerank + Rewrite)
