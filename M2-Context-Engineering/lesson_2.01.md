@@ -279,12 +279,12 @@ RAG — это конвейерная архитектура, где снача�
 3. Gupta, S., Ranjan, R., & Singh, S. N. (2024). A Comprehensive Survey of Retrieval-Augmented Generation (RAG): Evolution, Current Landscape and Future Directions. arXiv:2410.12837. arXiv: https://arxiv.org/abs/2410.12837
 4. Ding, Y., Fan, W., Ning, L., et al. (2024). A Survey on RAG Meets LLMs: Towards Retrieval-Augmented Large Language Models. arXiv:2405.06211. arXiv: http://arxiv.org/abs/2405.06211v1
 5. Wu, S., Xiong, Y., Cui, Y., et al. (2024). Retrieval-Augmented Generation for Natural Language Processing: A Survey. arXiv:2407.13193. arXiv: https://arxiv.org/abs/2407.13193v2
-🕸️ KAG / GraphRAG (Графовые подходы)
-6. Peng, B., et al. (2024). Graph Retrieval-Augmented Generation: A Survey. arXiv:2408.08921. arXiv: http://arxiv.org/abs/2408.08921
-7. Pan, S., et al. (2026). Knowledge graphs and large language models: Construction paradigms, integration approaches, and emerging applications. Elsevier. ScienceDirect: https://www.sciencedirect.com/science/article/pii/S0306457326001234
-💾 Векторные базы данных и эмбеддинги
-8. Pan, J. J., Wang, J., & Li, G. (2024). Survey of Vector Database Management Systems. The VLDB Journal, 33, 1591–1615. DOI: https://doi.org/10.1007/s00778-024-00864-x
-🎯 Реранкинг
-9. Pandit, T., et al. (2025). The Evolution of Reranking Models in Information Retrieval: From Heuristic Methods to Large Language Models. arXiv:2512.16236. arXiv: https://arxiv.org/abs/2512.16236
+6. 🕸️ KAG / GraphRAG (Графовые подходы)
+7. Peng, B., et al. (2024). Graph Retrieval-Augmented Generation: A Survey. arXiv:2408.08921. arXiv: http://arxiv.org/abs/2408.08921
+8. Pan, S., et al. (2026). Knowledge graphs and large language models: Construction paradigms, integration approaches, and emerging applications. Elsevier. ScienceDirect: https://www.sciencedirect.com/science/article/pii/S0306457326001234
+9. 💾 Векторные базы данных и эмбеддинги
+10. Pan, J. J., Wang, J., & Li, G. (2024). Survey of Vector Database Management Systems. The VLDB Journal, 33, 1591–1615. DOI: https://doi.org/10.1007/s00778-024-00864-x
+11. 🎯 Реранкинг
+12. Pandit, T., et al. (2025). The Evolution of Reranking Models in Information Retrieval: From Heuristic Methods to Large Language Models. arXiv:2512.16236. arXiv: https://arxiv.org/abs/2512.16236
 
 
