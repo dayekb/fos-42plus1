@@ -85,7 +85,7 @@
 - B. Attention Lens
 - C. Logit Lens
 - D. Git
-- E. Активационный паддинг (activation patching)
+- E. Активационный патчинг (activation patching)
 
 ✅ **Правильные ответы: A, B, C, E**
 
