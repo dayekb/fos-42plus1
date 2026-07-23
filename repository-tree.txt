@@ -1,74 +1,210 @@
-.
-├── data/
-│   ├── competency-catalog.csv
-│   ├── krm-v3.0.xlsx
-│   ├── README.md
-│   └── role-competency-matrix.csv
-├── docs/
-│   ├── quality-checklist.md
-│   ├── README.md
-│   ├── repository_example.pdf
-│   └── rpd.md
-├── Exam/
-│   ├── attachments/
-│   │   └── .gitkeep
-│   └── README.md
-├── M1-module-name/
-│   ├── attachments/
-│   │   └── .gitkeep
-│   ├── kim-01-practical-work.md
-│   ├── README.md
-│   └── rubric-01.md
-├── M2-module-name/
-│   ├── attachments/
-│   │   └── .gitkeep
-│   ├── kim-01-practical-work.md
-│   ├── kim-01-template.md
-│   └── README.md
-├── methodical-guidelines/
-│   ├── students/
-│   │   └── README.md
-│   ├── teachers-assessment/
-│   │   └── README.md
-│   ├── teachers-resources/
-│   │   └── README.md
-│   └── README.md
-├── other/
-│   └── README.md
-├── Project/
-│   ├── attachments/
-│   │   └── .gitkeep
-│   └── README.md
-├── resources/
-│   ├── benchmarks/
-│   │   └── README.md
-│   ├── datasets/
-│   │   └── README.md
-│   ├── llm-prompts/
-│   │   └── README.md
-│   ├── other/
-│   │   └── README.md
-│   ├── papers/
-│   │   └── README.md
-│   ├── problem-banks/
-│   │   └── README.md
-│   ├── software/
-│   │   └── python-libs/
-│   │       └── README.md
-│   ├── test-banks/
-│   │   └── README.md
-│   ├── textbooks/
-│   │   └── README.md
-│   └── README.md
-├── team/
-│   ├── images/
-│   │   └── .gitkeep
-│   └── README.md
-├── tools/
-│   ├── README.md
-│   └── validate_repository.py
-├── .gitignore
-├── CONTRIBUTING.md
-├── LICENSE.md
-├── README.md
-└── validation-report.txt
+│   .gitignore
+│   CONTRIBUTING.md
+│   LICENSE-CODE.md
+│   LICENSE-CONTENT.md
+│   README.md
+│   repository-tree.txt
+│
+├───data
+│       krm-v3.0.xlsx
+│       README.md
+│
+├───docs
+│       evaluation_model.md
+│       README.md
+│       rpd.md
+│
+├───Exam
+│   │   README.md
+│   │
+│   └───attachments
+│           .gitkeep
+│
+├───M1-Prompt-Engineering
+│   │   mark.md
+│   │   README.md
+│   │
+│   ├───attachments
+│   │       .gitkeep
+│   │       КИМ Занятие 1.1.docx
+│   │       КИМ Занятие 1.2.docx
+│   │       КИМ Занятие 1.3.docx
+│   │       КИМ Занятие 1.4.docx
+│   │
+│   ├───lesson_1.01
+│   │       kim_01_test.md
+│   │       kim_02_mini-case.md
+│   │       kim_03_mini-case.md
+│   │       kim_04_mini-case.md
+│   │       kim_05_mini-case.md
+│   │       kim_06_mini-case.md
+│   │       kim_07_mini-case.md
+│   │       README.md
+│   │
+│   ├───lesson_1.02
+│   │       kim_08_test.md
+│   │       kim_09_lr.md
+│   │       README.md
+│   │
+│   ├───lesson_1.03
+│   │       kim_10_pt.md
+│   │       kim_11_iw.md
+│   │       kim_12_iw.md
+│   │       kim_13_iw.md
+│   │       kim_14_iw.md
+│   │       kim_15_iw.md
+│   │       README.md
+│   │
+│   └───lesson_1.04
+│           kim_16_code-review.md
+│           kim_17_iw.md
+│           kim_18_iw.md
+│           kim_19_iw.md
+│           kim_20_iw.md
+│           kim_21_iw.md
+│           lesson_1.04.md
+│
+├───M2-Context-Engineering
+│   │   lesson_2.01.md
+│   │   lesson_2.02.md
+│   │   lesson_2.03.md
+│   │   lesson_2.04.md
+│   │   mark.md
+│   │   README.md
+│   │
+│   └───attachments
+│           .gitkeep
+│           Модуль 2. Конспект лекции.docx
+│           Модуль 2. Лабораторная работа (с автопроверкой).docx
+│           Модуль 2. Лабораторная работа.docx
+│           Модуль 2. Проект.docx
+│
+├───M3-Agent-Engineering
+│       lesson_3.01.md
+│       lesson_3.02.md
+│       lesson_3.03.md
+│       mark.md
+│       README.md
+│
+├───M4-Evaluation-Engineering
+│   │   mark.md
+│   │   README.md
+│   │
+│   ├───attachments
+│   │       .gitkeep
+│   │
+│   ├───lesson_4.01
+│   │       kim_01_mini-case.md
+│   │       kim_02_pt.md
+│   │       kim_03_07_iw.md
+│   │
+│   ├───lesson_4.02
+│   │       kim_08_test.md
+│   │       kim_09_lr.md
+│   │       kim_10-11_iw.md
+│   │
+│   ├───lesson_4.03
+│   │       kim_12_test.md
+│   │       kim_13_case.md
+│   │       kim_14-15_iw.md
+│   │
+│   ├───lesson_4.04
+│   │       kim_16_count.md
+│   │       kim_17_essay.md
+│   │
+│   └───lesson_4.05
+│           kim_18_defence.md
+│           kim_19_iw.md
+│
+├───methodical-guidelines
+│   │   README.md
+│   │
+│   ├───students
+│   │       defense_preparation_timeline.md
+│   │       defense_presentation_template.md
+│   │       defense_procedure_guide.md
+│   │       defense_technical_checklist.md
+│   │       guidelines_gpt_documentation.md
+│   │       lesson_1.03_practical_tasks.md
+│   │       lesson_1.04_practical_tasks.md
+│   │       module_1_lab_report_template.md
+│   │       module_2_lab_2.2_instructions.md
+│   │       module_2_lab_2.3_instructions.md
+│   │       module_2_lab_report_template.md
+│   │       module_2_project_2.4_instructions.md
+│   │       README.md
+│   │
+│   ├───teachers-assessment
+│   │       assessment_guide_2.03.md
+│   │       assessment_rubric_1.02.md
+│   │       assessment_rubric_2.02.md
+│   │       assessment_rubric_2.4_defense.md
+│   │       instructor_guide_1.03.md
+│   │       instructor_guide_1.04_defense.md
+│   │       module_2_methodology_common.md
+│   │       README.md
+│   │
+│   └───teachers-resources
+│           lesson_1.02.md
+│           README.md
+│
+├───resources
+│   │   README.md
+│   │
+│   ├───llm-prompts
+│   │       ab_compare.md
+│   │       final_judge.md
+│   │       hallucination_eval.md
+│   │       json_check.md
+│   │       multimodal.md
+│   │       ner.md
+│   │       pipeline_eval.md
+│   │       prompt_injection.md
+│   │       README.md
+│   │
+│   ├───other
+│   │       example.yml
+│   │       README.md
+│   │
+│   ├───papers
+│   │       README.md
+│   │
+│   ├───problem-banks
+│   │       basic_patterns.md
+│   │       conditional_pipelines.md
+│   │       json_extraction.md
+│   │       module3.md
+│   │       multimodal.md
+│   │       quality_assessment.md
+│   │       README.md
+│   │       security.md
+│   │
+│   ├───software
+│   │   ├───evaluation
+│   │   │       auto_check.py
+│   │   │       metrics.py
+│   │   │       README.md
+│   │   │       test_queries.json
+│   │   │
+│   │   └───python-libs
+│   │           README.md
+│   │
+│   ├───test-banks
+│   │       01_architecture.md
+│   │       02_basic_patterns.md
+│   │       03_advanced_patterns.md
+│   │       04_prompt_registry.md
+│   │       05_cicd.md
+│   │       06_debugging_security.md
+│   │       07_multimodal_pipelines.md
+│   │       module3.md
+│   │       README.md
+│   │
+│   └───textbooks
+│           README.md
+│
+└───team
+    │   README.md
+    │
+    └───images
+            .gitkeep
