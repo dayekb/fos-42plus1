@@ -17,7 +17,7 @@ evaluation/
 ```bash
 pip install numpy
 ```
-*Примечание: Скрипты предполагают, что классы `BaselineRAGPipeline` и `OptimizedRAGPipeline` доступны для импорта из модулей `src`.*
+*Примечание: Скрипты предполагают, что класс `OptimizedRAGPipeline` доступен для импорта из модулей `src`.*
 
 ---
 
@@ -76,7 +76,7 @@ Optimized  Recall@5:   0.8912
 
 **Логика работы:**
 1. Загружает `test_queries.json`.
-2. Инициализирует `BaselineRAGPipeline` (чистый Dense-поиск из ЛР 2.2).
+2. Считает baseline чистым Dense-поиском по индексу из ЛР 2.2.
 3. Инициализирует `OptimizedRAGPipeline` (гибридный поиск + RRF + реранкинг + query rewriting из ЛР 2.3).
 4. Вычисляет `Recall@5` для обоих пайплайнов.
 5. Рассчитывает процент улучшения:  
