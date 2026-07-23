@@ -905,7 +905,7 @@ if __name__ == '__main__':
 
 | Статья | Ссылка |
 |--------|--------|
-| **Bennani, S. M., & Moslonka, C. (2026).** A Systematic Analysis of Chunking Strategies for Reliable Question Answering. In *Advances in Information Retrieval. ECIR 2026. Lecture Notes in Computer Science*. Springer. | [https://link.springer.com/chapter/10.1007/978-3-031-xxxxx-x_xx](https://arxiv.org/abs/2601.14123) |
+| **Bennani, S. M., & Moslonka, C. (2026).** A Systematic Analysis of Chunking Strategies for Reliable Question Answering. In *Advances in Information Retrieval. ECIR 2026. Lecture Notes in Computer Science*. Springer. | [https://arxiv.org/abs/2601.1412)](https://arxiv.org/abs/2601.14123) |
 | **Lee, S., Kim, N., & Lee, J. (2026).** Structural Chunking: A Semantic-Structural Integrated Method for Retrieval-Augmented Generation. *2026 International Conference on Electronics, Information, and Communication (ICEIC)*, pp. 1–6. | https://ieeexplore.ieee.org/document/xxxx |
 | **Qin, M., Sun, Q., French, T., & Liu, W. (2025).** Enhancing RAG System Performance Through Semantic Layout Chunking. In *AI 2025: Advances in Artificial Intelligence – 38th Australasian Joint Conference on Artificial Intelligence, Proceedings*. Springer. | https://link.springer.com/chapter/10.1007/978-981-96-xxxx-x_xx |
 
