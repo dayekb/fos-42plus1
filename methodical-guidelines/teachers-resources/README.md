@@ -40,11 +40,11 @@
 
 ## 🔗 Связанные разделы курса
 
-- [Сводная система оценивания](docs/evaluation_model.md) — правила набора баллов и допуска к экзамену
-- [Модуль 1: Prompt Engineering](M1-Prompt-Engineering/)
-- [Модуль 2: Context Engineering](M2-Context-Engineering/)
-- [Модуль 3: Agent Engineering](M3-Agent-Engineering/)
-- [Модуль 4: Evaluation & Deployment](M4-Evaluation-Engineering/)
+- [Сводная система оценивания](../docs/evaluation_model.md) — правила набора баллов и допуска к экзамену
+- [Модуль 1: Prompt Engineering](../M1-Prompt-Engineering/)
+- [Модуль 2: Context Engineering](../M2-Context-Engineering/)
+- [Модуль 3: Agent Engineering](../M3-Agent-Engineering/)
+- [Модуль 4: Evaluation & Deployment](../M4-Evaluation-Engineering/)
 
 ---
 *Последнее обновление: Июль 2026 г.*
